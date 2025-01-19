@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    Padding:0;
+    box-sizing: border-box;
+    transition: .2s linear;
+}
+html{
+    font-family: 'Rubik',sans-serif;
+    color:#444;
+}
+
+header{
+    background-color: rgb(31, 2, 44);
+    height:100vh;
+    color:#fff
+}
+nav{
+    font-size:20px;
+    font-weight:700;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #867878;
+    border-bottom: 3px solid #fff;
+}
+.logo{
+    text-align: center;
+    font-style: italic;
+    font-size:32px;
+    display: inline-block;
+    border-radius: 10px;
+    margin:20px;
+    padding:12px 24px;
+    background:linear-gradient(to right,rgb(245, 3, 245),rgba(180, 178, 178, 0.5))
+}
+.main-nav-list li{
+    display:inline-block;
+    width:180px;
+    height:50px;
+    background-color: rgb(31, 5, 80);
+    text-align: center;
+    padding: 12px 8px;
+    border-radius:10px
+    
+}
+.main-nav-list li:hover{
+    background-color: palevioletred;
+}
+li a{
+    color:#fff;
+    text-decoration: none;
+}
+.main-nav-list{
+    font-size:20px;
+    text-decoration: none;
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+    list-style-type: none;
+    color:#fff;
+
+}
+
+.main-nav-list:visited,.main-nav-list:link{
+    font-size:20px;
+    font-weight: 600;
+    color:#fff;
+    text-decoration: none;
+    display:inline-block;
+    padding:16px 32px;
+    border-radius:9px;
+}
+.hero-content{
+    margin:150px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px
+}
+.hero-text{
+    width:42%;
+
+}
+span img{
+    display:block;
+    border-radius:50%;
+}
+h1{
+    font-size: 52px;
+    margin-bottom: 32px;
+}
+p{
+    font-size:20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+.btn:visited,.btn:link{
+    font-size:20px;
+    font-weight: 600;
+    background-color: #fff;
+    color:blue;
+    text-decoration: none;
+    display:inline-block;
+    padding:16px 32px;
+    border-radius:9px;
+}
+h2{
+    font-size:44px;
+    margin-bottom: 48px;
+}
+
+section{
+    width:1200px;
+    padding:0 auto;
+
+}
